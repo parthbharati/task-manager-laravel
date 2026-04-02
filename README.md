@@ -34,3 +34,13 @@ A web-based Task Manager application built using Laravel to manage daily tasks e
 2. Install dependencies:
    ```bash
    composer install
+   Setup environment:
+
+3. Copy .env.example → .env
+   Configure database
+   Setup environment:
+4. Run migrations:
+   php artisan migrate
+5. Start server:
+   php artisan serve
+   
